@@ -2,7 +2,8 @@ class Messages
 	def self.welcome
 		puts  "Welcome to Master_mind, your very first Ruby App!"+ 
 		  " Would you like to " + "Play".colorize(:green) + 	  " or would you rather read the " + "Instructions".colorize(:blue) + 
-		  " or a brief " +"(B)ackground".colorize(:yellow)+ " on mastermind. You may choose to " + "(E)xit".colorize(:red) + " as well. But if you want to go ahead and play, press 'P'."
+		  " or a brief " +"(B)ackground".colorize(:yellow)+ " on mastermind. You may choose to " + "(E)xit".colorize(:red) + " as well." + 
+		  "But if you want to go ahead and play, press 'P'."
 	end
 
 	def self.background
